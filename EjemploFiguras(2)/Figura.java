@@ -13,7 +13,7 @@ public abstract class Figura {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-     public abstract int calcularArea();
-     public abstract int calcularPerimetro();
+     public abstract double calcularArea();
+     public abstract double calcularPerimetro();
      public abstract void reDibujar();
 }

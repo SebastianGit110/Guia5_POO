@@ -13,7 +13,7 @@ public class Triangulo extends Figura {
         }
     } 
     @Override
-    public int calcularArea() {
+    public double calcularArea() {
        double area, A,B,C,Perimetro; 
        A= (float) Math.sqrt((Math.pow((vertices[1].getX()-vertices[0].getX()),2))
                +(Math.pow((vertices[1].getY()-vertices[0].getY()),2)));
@@ -24,11 +24,11 @@ public class Triangulo extends Figura {
        Perimetro=(A+B+C)/2;
        area=Math.sqrt(Perimetro*(Perimetro-A)*(Perimetro-B)*(Perimetro-C));
        System.out.println("Area triangulo = " + area);
-       return (int)area;
+       return (double)area;
     }
 
     @Override
-    public int calcularPerimetro() {
+    public double calcularPerimetro() {
        double A,B,C,Perimetro; 
        A= (float) Math.sqrt((Math.pow((vertices[1].getX()-vertices[0].getX()),2))
                +(Math.pow((vertices[1].getY()-vertices[0].getY()),2)));
@@ -38,7 +38,7 @@ public class Triangulo extends Figura {
                +(Math.pow((vertices[0].getY()-vertices[2].getY()),2)));
        Perimetro=(A+B+C);
        System.out.println("Perimetro triangulo = " + Perimetro);
-       return (int)Perimetro;
+       return (double)Perimetro;
     }
 
     @Override
