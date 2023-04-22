@@ -1,4 +1,6 @@
 package Presentacion;
+
+
 public abstract class Figura {
     private String color, descripcion;
     public String getColor() {

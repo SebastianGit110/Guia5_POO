@@ -1,5 +1,7 @@
 package Presentacion;
 import javax.swing.JOptionPane;
+
+
 public class Cuadrilatero extends Figura{
     Punto2D vertices[];
     int aux, px,py;
@@ -19,7 +21,7 @@ public class Cuadrilatero extends Figura{
     @Override
     public double calcularArea() {
 
-        double area, A, B, C, D;
+        double area;
 
         // Genera una matriz para las coordenadas x,y
         for (int i = 0; i < matriz.length; i++) {

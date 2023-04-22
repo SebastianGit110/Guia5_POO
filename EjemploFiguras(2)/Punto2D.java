@@ -1,4 +1,6 @@
 package Presentacion;
+
+
 public class Punto2D {
     int X, Y;
     public Punto2D(int xp, int yp) {

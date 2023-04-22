@@ -1,5 +1,7 @@
 package Presentacion;
 import javax.swing.JOptionPane;
+
+
 public class Triangulo extends Figura {
     Punto2D vertices[];
     int aux,px,py;
