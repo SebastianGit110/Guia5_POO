@@ -1,5 +1,13 @@
 # Guia5_POO
 
+
+
+## Resumen 
+En general, una clase abstracta es aquella que modela un concepto abstracto. Por ejemplo, la clase Animal agrupa todos los atributos y métodos comunes a todos los animales, de tal forma que las clases Gato ̧ Perro y Tiburón ̧ heredaron de ella; en sí misma la clase Animal no representa a ningún animal en concreto, por lo que esta clase sería abstracta. Las clases abstractas suelen marcarse con la palabra clave abstracta. Al marcar una clase como abstracta, no será posible crear objetos de la misma. En general, para poder usar una clase abstracta, se debe crear una clase que herede de ella. Las clases abstractas pueden contener métodos abstractos, los cuales se marcan también con la palabra abstracta. Un método abstracto solo se declara en una clase abstracta, pero no se implementa. Las clases concretas que heredan de la clase abstracta, deben implementar los métodos abstractos
+
+
+
+
 ## Introducción, sesión 1 
 ### Estos ejercicios se deben solucionar en lenguaje Java.
 
@@ -13,6 +21,8 @@
 
 ![image](https://user-images.githubusercontent.com/124604196/233871926-2c109b9b-5dd1-4608-9d37-65e56304bb02.png)
 ![image](https://user-images.githubusercontent.com/124604196/233872347-0953dfd1-80a0-46c7-94b5-c7c2604f9bdb.png)
+
+
 
 
 
@@ -30,7 +40,10 @@ a. Se nos presentó dificultades a la hora del código ya que no fue un proyecto
 b. Modificaciones en el código fueron difíciles de manejar, ya que cuando se realizaba algún cambio aparecen varios errores en el código, lo que hacía que no funcionara de manera correcta.
 
 
+
+
 ## Parte 3
+
 
 1) In software engineering, abstraction refers to the process of simplifying complex systems by isolating their essential features while suppressing details that are not necessary for understanding or manipulating the system. Abstraction is a fundamental concept in software engineering, as it allows developers to create software systems that are more modular, easier to understand, and easier to maintain.
 
@@ -43,6 +56,8 @@ Procedural Abstraction: Procedural abstraction is the process of hiding implemen
 Control Abstraction: Control abstraction is the process of hiding implementation details of control structures (such as loops or conditionals) by providing a simplified interface for using them. This allows programmers to use control structures without worrying about how they are implemented.
 
 Object-oriented Abstraction: Object-oriented abstraction is the process of modeling a system as a set of interacting objects, each with its own state and behavior. This allows programmers to use objects without worrying about how they are implemented.
+
+
 
 2) In Java, both abstract classes and interfaces are used to achieve abstraction and provide a way to define common behaviors and attributes for related classes. However, there are some key differences between the two:
 
@@ -57,6 +72,8 @@ Constructors: An abstract class can have constructors, while interfaces cannot h
 Variables: An abstract class can have instance variables, while interfaces cannot have instance variables.
 
 Purpose: Abstract classes are used to define common behaviors and attributes for related classes, while interfaces are used to define a contract that classes must follow in order to implement certain behaviors.
+
+
 
 4) In the context of web services, an interface is a contract that defines the operations or methods that a service provides to its clients. The interface describes the input and output parameters for each operation, as well as any preconditions and postconditions that the service requires.
 
