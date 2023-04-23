@@ -11,6 +11,9 @@
 6. Note que el Cuadrilátero y el Triángulo tienen de 4 y 3 vértices representados en puntos respectivamente. Declare estos atributos como protected.
 
 
+![image](https://user-images.githubusercontent.com/124604196/233871926-2c109b9b-5dd1-4608-9d37-65e56304bb02.png)
+
+
 ## Preguntas orientadoras
 ¿Cuáles fueron los aprendizajes obtenidos al realizar esta guía?, lista como mínimo 3 aprendizajes y relaciónelos con su futuro quehacer profesional.
 
