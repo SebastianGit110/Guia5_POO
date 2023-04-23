@@ -12,6 +12,8 @@
 
 
 ![image](https://user-images.githubusercontent.com/124604196/233871926-2c109b9b-5dd1-4608-9d37-65e56304bb02.png)
+![image](https://user-images.githubusercontent.com/124604196/233872347-0953dfd1-80a0-46c7-94b5-c7c2604f9bdb.png)
+
 
 
 ## Preguntas orientadoras
